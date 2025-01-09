@@ -21,6 +21,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property int|null $idCarburant
+ * @property string|null $Ville
  * 
  * @property Carburant|null $carburant
  *
@@ -46,7 +47,8 @@ class User extends Model
 		'email_verified_at',
 		'password',
 		'remember_token',
-		'idCarburant'
+		'idCarburant',
+		'Ville'
 	];
 
 	public function carburant()
