@@ -20,4 +20,6 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/stations', [StationController::class, 'index'])->name('stations.index');
 
+Route::get('/stations/create', [StationController::class, 'create'])->name('stations.create');
+
 require __DIR__.'/auth.php';
