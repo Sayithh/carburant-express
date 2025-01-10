@@ -26,5 +26,5 @@ Assurez-vous d'avoir les éléments suivants installés sur votre machine :
 1. Clonez le dépôt du projet :
 
    git bash :
-   git clone https://github.com/votre-utilisateur/carburant-express.git
+   git clone https://github.com/Sayithh/carburant-express.git
    cd carburant-express
